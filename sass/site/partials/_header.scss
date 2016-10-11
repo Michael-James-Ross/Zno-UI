@@ -1,0 +1,90 @@
+.site-nav {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: #6AB344;
+    height: $siteNavHeight;
+    overflow: hidden;
+    div {
+        button {
+            border: 0;
+            background-color: inherit;
+            display: table; 
+            height: $siteNavHeight;
+            outline: 0;
+            padding: 0 20px;
+            span {
+                font-size: 1.7rem;
+                color: gray;
+                display: table-cell;
+            }   
+        }
+        #show-menu-btn {
+            float: left;
+        }
+        #log-out-btn {
+            float: right;
+        }
+        a {
+            display: table;
+            float: left;
+            height: 100%;
+            border-left:1px solid #fff;
+            border-right:1px solid #fff;
+            font-weight: bold;
+            padding: 0 15px;
+            font-size: 2rem;
+            color: white;
+            span {
+                display: table-cell;
+                vertical-align: middle;
+            }
+        }
+    }
+    ul {
+        display: block;
+        list-style: none;
+        padding: 0;
+        float: left;
+        li {
+            float: left;
+            a {
+                display: block;
+                height: $siteNavHeight;
+                line-height: $siteNavHeight;
+                color: lightgray;
+                font-weight:bold;
+                padding: 0% 10px;
+                text-transform: uppercase;
+            }
+            a:hover {
+                color: white;
+            }
+        }
+    }    
+}
+
+@media only screen and (max-width: 900px) {
+     .site-nav{ 
+        > button{
+            display: block;
+            width: 65px;
+        }
+        ul{
+            display: none;
+        }
+        div > a{
+            border-right: 1px solid transparent;
+            border-left: 1px solid transparent;
+        }
+    }
+    
+    #log-out-btn {
+        border-left:1px solid #fff;   
+    }
+
+    #show-menu-btn {
+        border-right:1px solid #fff;   
+    }
+}
+

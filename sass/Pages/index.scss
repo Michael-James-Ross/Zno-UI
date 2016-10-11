@@ -1,0 +1,16 @@
+@import "index/partials/_subjects";
+@import "index/partials/_auth";
+
+.content{
+	padding: 0 10px;
+}
+
+@media only screen and (max-width: 430px) {
+    html {
+        font-size: 50%;
+    }
+    .block-title {
+		font-size: 2rem;
+        padding: 5px;
+    }
+}

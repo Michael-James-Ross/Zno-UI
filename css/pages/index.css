@@ -1,0 +1,233 @@
+/* line 3, ../../sass/Pages/index/partials/_subjects.scss */
+.subject {
+  margin: 5px 0;
+  height: 75px;
+  position: relative;
+  padding: 0 10px;
+  display: block;
+}
+/* line 9, ../../sass/Pages/index/partials/_subjects.scss */
+.subject .sub-logo {
+  width: 90px;
+  float: left;
+  line-height: 75px;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+}
+/* line 17, ../../sass/Pages/index/partials/_subjects.scss */
+.subject .title {
+  float: left;
+  padding-left: 5px;
+  font-size: 1.6rem;
+  height: 100%;
+  line-height: 75px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 26, ../../sass/Pages/index/partials/_subjects.scss */
+.subject .num-test {
+  font-size: 1.2rem;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* line 34, ../../sass/Pages/index/partials/_subjects.scss */
+.subject:hover {
+  background-color: #F8F8F8;
+}
+
+/* line 39, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(1) .sub-logo {
+  background-color: #1bc7a5;
+}
+/* line 42, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(2) .sub-logo {
+  background-color: #2ecc71;
+}
+/* line 45, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(3) .sub-logo {
+  background-color: #3498db;
+}
+/* line 48, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(4) .sub-logo {
+  background-color: #9b59b6;
+}
+/* line 51, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(5) .sub-logo {
+  background-color: #34495e;
+}
+/* line 54, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(6) .sub-logo {
+  background-color: #27ae60;
+}
+/* line 57, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(7) .sub-logo {
+  background-color: #2980b9;
+}
+/* line 60, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(8) .sub-logo {
+  background-color: #f1c40f;
+}
+/* line 63, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(9) .sub-logo {
+  background-color: #e67e22;
+}
+/* line 66, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(10) .sub-logo {
+  background-color: #bdc3c7;
+}
+/* line 69, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(11) .sub-logo {
+  background-color: #e74c3c;
+}
+/* line 72, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(12) .sub-logo {
+  background-color: #7f8c8d;
+}
+/* line 75, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(1) {
+  border-right: 5px solid #1bc7a5;
+}
+/* line 78, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(2) {
+  border-right: 5px solid #2ecc71;
+}
+/* line 81, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(3) {
+  border-right: 5px solid #3498db;
+}
+/* line 84, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(4) {
+  border-right: 5px solid #9b59b6;
+}
+/* line 87, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(5) {
+  border-right: 5px solid #34495e;
+}
+/* line 90, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(6) {
+  border-right: 5px solid #27ae60;
+}
+/* line 93, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(7) {
+  border-right: 5px solid #2980b9;
+}
+/* line 96, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(8) {
+  border-right: 5px solid #f1c40f;
+}
+/* line 99, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(9) {
+  border-right: 5px solid #e67e22;
+}
+/* line 102, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(10) {
+  border-right: 5px solid #bdc3c7;
+}
+/* line 105, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(11) {
+  border-right: 5px solid #e74c3c;
+}
+/* line 108, ../../sass/Pages/index/partials/_subjects.scss */
+.subjects a:nth-child(12) {
+  border-right: 5px solid #7f8c8d;
+}
+
+@media only screen and (max-width: 430px) {
+  /* line 114, ../../sass/Pages/index/partials/_subjects.scss */
+  .subject {
+    height: 40px;
+  }
+  /* line 116, ../../sass/Pages/index/partials/_subjects.scss */
+  .subject .title {
+    line-height: 40px;
+  }
+  /* line 119, ../../sass/Pages/index/partials/_subjects.scss */
+  .subject .sub-logo {
+    line-height: 40px;
+    width: 40px;
+  }
+  /* line 123, ../../sass/Pages/index/partials/_subjects.scss */
+  .subject .num-test {
+    bottom: 0px;
+  }
+}
+/* line 1, ../../sass/Pages/index/partials/_auth.scss */
+.menu > .sign-in {
+  display: none;
+}
+/* line 3, ../../sass/Pages/index/partials/_auth.scss */
+.menu > .sign-in legend {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 10, ../../sass/Pages/index/partials/_auth.scss */
+.sign-in > form {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 10px;
+}
+/* line 14, ../../sass/Pages/index/partials/_auth.scss */
+.sign-in > form label {
+  padding: 5px 0;
+  color: white;
+}
+/* line 18, ../../sass/Pages/index/partials/_auth.scss */
+.sign-in > form input {
+  margin-bottom: 5px;
+  width: 100%;
+  border-radius: 5px;
+  text-indent: 10px;
+  outline: none;
+  border: 0;
+}
+/* line 26, ../../sass/Pages/index/partials/_auth.scss */
+.sign-in > form span,
+.sign-in > form li {
+  background-color: #F2DEDE;
+  color: #C26542;
+  padding: 5px 0 0 5px;
+  margin: 0;
+  border-radius: 3px;
+  display: block;
+}
+/* line 35, ../../sass/Pages/index/partials/_auth.scss */
+.sign-in > form span {
+  text-indent: 10px;
+  padding: 0;
+}
+/* line 40, ../../sass/Pages/index/partials/_auth.scss */
+.sign-in > form .validation-summary-errors ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 43, ../../sass/Pages/index/partials/_auth.scss */
+.sign-in > form .validation-summary-errors ul li {
+  margin: 3px 0;
+}
+/* line 48, ../../sass/Pages/index/partials/_auth.scss */
+.sign-in > form .form-group {
+  margin-bottom: 0px;
+}
+
+/* line 4, ../../sass/Pages/index.scss */
+.content {
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 430px) {
+  /* line 9, ../../sass/Pages/index.scss */
+  html {
+    font-size: 50%;
+  }
+
+  /* line 12, ../../sass/Pages/index.scss */
+  .block-title {
+    font-size: 2rem;
+    padding: 5px;
+  }
+}
