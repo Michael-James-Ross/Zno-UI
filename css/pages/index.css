@@ -154,78 +154,18 @@
     bottom: 0px;
   }
 }
-/* line 1, ../../sass/Pages/index/partials/_auth.scss */
-.menu > .sign-in {
-  display: none;
-}
-/* line 3, ../../sass/Pages/index/partials/_auth.scss */
-.menu > .sign-in legend {
-  color: white;
-  padding: 0;
-  margin: 0;
-}
-
-/* line 10, ../../sass/Pages/index/partials/_auth.scss */
-.sign-in > form {
-  border: 1px solid lightgray;
-  border-radius: 3px;
-  padding: 10px;
-}
-/* line 14, ../../sass/Pages/index/partials/_auth.scss */
-.sign-in > form label {
-  padding: 5px 0;
-  color: white;
-}
-/* line 18, ../../sass/Pages/index/partials/_auth.scss */
-.sign-in > form input {
-  margin-bottom: 5px;
-  width: 100%;
-  border-radius: 5px;
-  text-indent: 10px;
-  outline: none;
-  border: 0;
-}
-/* line 26, ../../sass/Pages/index/partials/_auth.scss */
-.sign-in > form span,
-.sign-in > form li {
-  background-color: #F2DEDE;
-  color: #C26542;
-  padding: 5px 0 0 5px;
-  margin: 0;
-  border-radius: 3px;
-  display: block;
-}
-/* line 35, ../../sass/Pages/index/partials/_auth.scss */
-.sign-in > form span {
-  text-indent: 10px;
-  padding: 0;
-}
-/* line 40, ../../sass/Pages/index/partials/_auth.scss */
-.sign-in > form .validation-summary-errors ul {
-  list-style: none;
-  padding: 0;
-}
-/* line 43, ../../sass/Pages/index/partials/_auth.scss */
-.sign-in > form .validation-summary-errors ul li {
-  margin: 3px 0;
-}
-/* line 48, ../../sass/Pages/index/partials/_auth.scss */
-.sign-in > form .form-group {
-  margin-bottom: 0px;
-}
-
-/* line 4, ../../sass/Pages/index.scss */
+/* line 3, ../../sass/Pages/index.scss */
 .content {
   padding: 0 10px;
 }
 
 @media only screen and (max-width: 430px) {
-  /* line 9, ../../sass/Pages/index.scss */
+  /* line 8, ../../sass/Pages/index.scss */
   html {
     font-size: 50%;
   }
 
-  /* line 12, ../../sass/Pages/index.scss */
+  /* line 11, ../../sass/Pages/index.scss */
   .block-title {
     font-size: 2rem;
     padding: 5px;

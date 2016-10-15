@@ -147,55 +147,114 @@
   text-transform: uppercase;
 }
 
-/* line 7, ../../sass/site/site.scss */
+/* line 1, ../../sass/site/partials/_auth.scss */
+.menu > .sign-in {
+  display: none;
+}
+/* line 3, ../../sass/site/partials/_auth.scss */
+.menu > .sign-in legend {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 10, ../../sass/site/partials/_auth.scss */
+.sign-in > form {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 10px;
+}
+/* line 14, ../../sass/site/partials/_auth.scss */
+.sign-in > form label {
+  padding: 5px 0;
+  color: white;
+}
+/* line 18, ../../sass/site/partials/_auth.scss */
+.sign-in > form input {
+  margin-bottom: 5px;
+  width: 100%;
+  border-radius: 5px;
+  text-indent: 10px;
+  outline: none;
+  border: 0;
+}
+/* line 26, ../../sass/site/partials/_auth.scss */
+.sign-in > form span,
+.sign-in > form li {
+  background-color: #F2DEDE;
+  color: #C26542;
+  padding: 5px 0 0 5px;
+  margin: 0;
+  border-radius: 3px;
+  display: block;
+}
+/* line 35, ../../sass/site/partials/_auth.scss */
+.sign-in > form span {
+  text-indent: 10px;
+  padding: 0;
+}
+/* line 40, ../../sass/site/partials/_auth.scss */
+.sign-in > form .validation-summary-errors ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 43, ../../sass/site/partials/_auth.scss */
+.sign-in > form .validation-summary-errors ul li {
+  margin: 3px 0;
+}
+/* line 48, ../../sass/site/partials/_auth.scss */
+.sign-in > form .form-group {
+  margin-bottom: 0px;
+}
+
+/* line 8, ../../sass/site/site.scss */
 html, body {
   height: 100%;
 }
 
-/* line 11, ../../sass/site/site.scss */
+/* line 12, ../../sass/site/site.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 13, ../../sass/site/site.scss */
+/* line 14, ../../sass/site/site.scss */
 body {
   font-size: 1.4rem;
 }
 
-/* line 17, ../../sass/site/site.scss */
+/* line 18, ../../sass/site/site.scss */
 a {
   color: black;
 }
 
-/* line 21, ../../sass/site/site.scss */
+/* line 22, ../../sass/site/site.scss */
 a:hover, a:visited {
   text-decoration: none;
   color: black;
 }
 
-/* line 26, ../../sass/site/site.scss */
+/* line 27, ../../sass/site/site.scss */
 .content {
   margin-top: 65px;
   z-index: 0;
 }
 
-/* line 31, ../../sass/site/site.scss */
+/* line 32, ../../sass/site/site.scss */
 .block-title {
   font-size: 1.8rem;
   line-height: 1;
   padding: 7px 0;
 }
 
-/* line 37, ../../sass/site/site.scss */
+/* line 38, ../../sass/site/site.scss */
 hr {
   padding: 0;
   margin: 5px 0;
 }
 
 @media only screen and (max-width: 430px) {
-  /* line 43, ../../sass/site/site.scss */
+  /* line 44, ../../sass/site/site.scss */
   .block-title {
     font-size: 1.5rem;
-    padding: 0;
   }
 }

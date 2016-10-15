@@ -1,0 +1,23 @@
+$testRowHeight: 40px;
+
+@import "tests/partials/_test";
+@import "tests/partials/_header";
+
+.content {
+    padding: 0 5%;
+    min-width:310px;
+    overflow: visible;
+}
+
+.test > *{
+    color: white; 
+}
+
+@media only screen and (max-width: 550px) {
+    html {
+        font-size: 50%;
+    }
+    .content {
+        padding: 0 1%;
+    }
+}

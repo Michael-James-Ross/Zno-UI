@@ -1,0 +1,72 @@
+
+.test {
+    float: left;
+    width: 100%;
+    border: 1px solid #FF972A;
+    margin-bottom: 5px;
+    table.table {
+        display: none;
+        min-width: 315px;
+        margin: 0;
+        border: 0;
+        tbody {
+            tr {
+                background-color: #1F7F9F;
+            }
+            td {
+                padding: 0 3px;
+                height: $testRowHeight;
+                line-height: $testRowHeight;
+                white-space: nowrap;
+                width: 100%;
+                .test-link {
+                    button {
+                        background-color: #5CB85C;
+                        border: 0px;
+                        color: white;
+                        border-radius: 0px;
+                        height: $testRowHeight;
+                    }
+                    .dropdown-menu {
+                        right: 0;
+                        left: auto;
+                    }
+                }
+                > span {
+                    background-color: #5BC0DE;
+                    font-weight: bold;
+                    padding: 5px 10px;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        td:nth-child(1) {
+            text-indent: 10px;
+            width: 50%;
+        }
+        td:nth-child(2) {
+            width: 25%;
+        }
+        td:nth-child(3) {
+            width: 25%;
+        }
+
+        td:nth-child(4) {
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .test {
+        table.table {
+            font-size: 1.4rem;
+            td:nth-child(1) {
+                text-align: center;
+            }
+            button {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

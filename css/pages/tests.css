@@ -1,0 +1,130 @@
+/* line 2, ../../sass/Pages/tests/partials/_test.scss */
+.test {
+  float: left;
+  width: 100%;
+  border: 1px solid #FF972A;
+  margin-bottom: 5px;
+}
+/* line 7, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table {
+  display: none;
+  min-width: 315px;
+  margin: 0;
+  border: 0;
+}
+/* line 13, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table tbody tr {
+  background-color: #1F7F9F;
+}
+/* line 16, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table tbody td {
+  padding: 0 3px;
+  height: 40px;
+  line-height: 40px;
+  white-space: nowrap;
+  width: 100%;
+}
+/* line 23, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table tbody td .test-link button {
+  background-color: #5CB85C;
+  border: 0px;
+  color: white;
+  border-radius: 0px;
+  height: 40px;
+}
+/* line 30, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table tbody td .test-link .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+/* line 35, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table tbody td > span {
+  background-color: #5BC0DE;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+/* line 43, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table td:nth-child(1) {
+  text-indent: 10px;
+  width: 50%;
+}
+/* line 47, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table td:nth-child(2) {
+  width: 25%;
+}
+/* line 50, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table td:nth-child(3) {
+  width: 25%;
+}
+/* line 54, ../../sass/Pages/tests/partials/_test.scss */
+.test table.table td:nth-child(4) {
+  padding: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 62, ../../sass/Pages/tests/partials/_test.scss */
+  .test table.table {
+    font-size: 1.4rem;
+  }
+  /* line 64, ../../sass/Pages/tests/partials/_test.scss */
+  .test table.table td:nth-child(1) {
+    text-align: center;
+  }
+  /* line 67, ../../sass/Pages/tests/partials/_test.scss */
+  .test table.table button {
+    font-size: 1.4rem;
+  }
+}
+/* line 1, ../../sass/Pages/tests/partials/_header.scss */
+.header {
+  height: 40px;
+  line-height: 40px;
+  background-color: #FF972A;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-indent: 10px;
+}
+/* line 8, ../../sass/Pages/tests/partials/_header.scss */
+.header .subject-year {
+  display: inline;
+}
+/* line 11, ../../sass/Pages/tests/partials/_header.scss */
+.header .down-list-btn {
+  float: right;
+  height: 100%;
+  background-color: #B86D1E;
+  border-radius: 0;
+  border: 0px;
+  width: 50px;
+  outline: none;
+  text-align: center;
+}
+/* line 20, ../../sass/Pages/tests/partials/_header.scss */
+.header .down-list-btn span {
+  color: white;
+}
+
+/* line 6, ../../sass/Pages/tests.scss */
+.content {
+  padding: 0 5%;
+  min-width: 310px;
+  overflow: visible;
+}
+
+/* line 12, ../../sass/Pages/tests.scss */
+.test > * {
+  color: white;
+}
+
+@media only screen and (max-width: 550px) {
+  /* line 17, ../../sass/Pages/tests.scss */
+  html {
+    font-size: 50%;
+  }
+
+  /* line 20, ../../sass/Pages/tests.scss */
+  .content {
+    padding: 0 1%;
+  }
+}

@@ -3,6 +3,7 @@
 
 @import "partials/_header";
 @import "partials/_menu";
+@import "partials/_auth";
 
 html, body {
     height: 100%;
@@ -42,7 +43,6 @@ hr{
 @media only screen and (max-width: 430px) {
     .block-title {
         font-size: 1.5rem;
-        padding: 0;
     }
 }
 
